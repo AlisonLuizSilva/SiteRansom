@@ -1,0 +1,172 @@
+header{
+	background: #001848;
+	padding: 08px;
+
+}
+
+body{
+	backgroud: black;
+
+
+}
+
+.imagem_ransom1{
+	width: 13%;
+	margin: 5px 0px 0px 20px;
+	
+}
+
+.contato{
+	position: absolute;
+	color: white;
+	top: 40px;
+	right: 110px;
+
+
+}
+
+.contato li{
+	display: inline-block;
+	padding-left: 10px;
+	vertical-align: middle;
+	font-size: 18px;
+	
+}
+
+.telefone_logo{
+	width: 20px;
+	
+
+}
+
+.store_logo{
+	width: 120px;
+
+
+}
+
+
+nav a{
+	color: white;
+	position:relative;
+	top:  0px;
+	left: 20px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+
+nav li{
+	display:  inline;
+	margin: 0 0 0 15px;
+
+}
+.menuprincipal{
+	background: black;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.img_fisicos{
+	width: 100%;
+	background: .img_fisicos;
+	
+}
+
+.titulos_fisicos{
+	position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 45px;
+    color:#fff;
+    text-align: center;
+    top: 110%;
+    left: 28%;
+    width: 600px;
+    line-height: 50px;
+    height: 100px;
+}
+
+.texto_fisicos{
+	position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    top: 130%;
+    left: 35%;
+    width: 400px;
+    line-height: 30px;
+    height: 100px;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+	color:  darkblue;
+
+}
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin: 100px;
+	text-transform: uppercase;
+	color: darkblue;
+
+}
+
+.nossos_produtos{	
+	width: 940px;
+	margin: 0 auto;
+
+
+}
+
+.nossos_produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0px 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+
+}
+
+
+.protecao_financeira{
+	font-size: 20px;
+	margin: 20px;
+	color: darkblue;
+
+}
+
+.descricao_protecao{
+	font-size: 18px;
+
+}
+
+.seguro_obra{
+	font-size: 20px;
+	margin: 20px 0 60px 0;
+	color: darkblue;
+
+}
+
+.descricao_obra{
+	font-size: 18px;
+
+}
+
+.plano_saude{
+	font-size: 20px;
+	margin: 20px 0 40px 0;
+	color: darkblue;
+
+}
+
+.descricao_saude{
+	font-size: 18px;
+}
