@@ -6,10 +6,13 @@ header{
 
 body{
 	backgroud: black;
+	font-family: 'Roboto', sans-serif;
+
 
 
 }
 
+/*ÍNÍCIO HEADER*/
 .imagem_ransom1{
 	width: 13%;
 	margin: 5px 0px 0px 20px;
@@ -62,14 +65,27 @@ nav li{
 	margin: 0 0 0 15px;
 
 }
+
 .menuprincipal{
 	background: black;
-	padding: 20px;
-	font-size: 20px;
+	padding: 18px;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
+.menuprincipal li:hover{
+	text-decoration: underline;
+
+}
+
+/*FIM HEADER*/
+
+
+/*INÍCIO IMAGENS*/
 .img_fisicos{
+	height: 550px;
 	width: 100%;
+	margin: 0 auto;
 	background: .img_fisicos;
 	
 }
@@ -80,8 +96,8 @@ nav li{
     font-size: 45px;
     color:#fff;
     text-align: center;
-    top: 110%;
-    left: 28%;
+    top: 60%;
+	left: 28%;
     width: 600px;
     line-height: 50px;
     height: 100px;
@@ -90,30 +106,36 @@ nav li{
 .texto_fisicos{
 	position: absolute;
     background-color: rgba(0,0,0,0.5);
-    font-size: 20px;
+    font-size: 18px;
     color:#fff;
     text-align: center;
-    top: 130%;
+    top: 80%;
     left: 35%;
     width: 400px;
     line-height: 30px;
     height: 100px;
 }
 
+/*FIM IMAGENS*/
+
+
+/*INICIO MAIN (NOSSOS PRODUTOS)*/
 h2{
 	text-align: center;
 	font-size: 30px;
-	margin: 20px;
+	margin: 1em 0 2em 0;
 	color:  darkblue;
+	font-weight: bold;
 
 }
 
 h3{
 	text-align: center;
 	font-size: 30px;
-	margin: 100px;
+	margin:1em 0 1em 0;
 	text-transform: uppercase;
 	color: darkblue;
+	font-weight: bold;
 
 }
 
@@ -130,43 +152,120 @@ h3{
 	width: 30%;
 	vertical-align: top;
 	margin: 0px 1.5%;
-	padding: 30px 20px;
+	padding: 30px 10px;
 	box-sizing: border-box;
 
 }
 
 
-.protecao_financeira{
-	font-size: 20px;
+.titulo_produtos{
+	font-size: 16px;
+	font-weight: bold;
 	margin: 20px;
 	color: darkblue;
 
-}
-
-.descricao_protecao{
-	font-size: 18px;
 
 }
 
-.seguro_obra{
-	font-size: 20px;
-	margin: 20px 0 60px 0;
+.botao-padrao{
+	margin: 2em auto;
+	background: orange;
 	color: darkblue;
+	width: 50%;
+	padding: 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
 
 }
 
-.descricao_obra{
-	font-size: 18px;
+.botao-padrao:hover{
+	background: darkorange;
+	transform: scale(1.1);
+	transition: 0.5s;
 
 }
 
-.plano_saude{
+.botao-padrao:active{
+	color: darkgreen;
+	
+}
+
+.descricao_produtos{
+	font-size: 16px;
+	color: black;
+	vertical-align: top;
+	margin: 0 0 4em 0;
+
+}
+/*FIM MAIN (NOSSOS PRODUTOS)*/
+
+/*INICIO DIVISÃO SITE*/
+
+.divisao-site{
+	width: 80%;
+	margin: 0 90px; 
+	border-top: 2px solid darkgrey;
+
+}
+
+.divisao-site li{
+	display: inline-block;
+	text-align: center;
+	margin: 1em 3.5%;
+	padding: 5em 10px 3em 5%;
+	vertical-align: top;
+
+
+}
+
+h4{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 1em 0;
+	font-weight: bold;
 	font-size: 20px;
-	margin: 20px 0 40px 0;
+
+}
+
+.divisao-site p, a{
+	font-size: 20px;
 	color: darkblue;
+	text-decoration: none;
+}
+
+
+.botao-contato{
+	display: inline-block;
+	margin: 2em auto;
+	background: orange;
+	color: darkblue;
+	padding: 1em;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+	
+}
+.botao-contato:hover{
+	background: darkorange;
+	transform: scale(1.1);
+	transition: 0.5s;
 
 }
 
-.descricao_saude{
-	font-size: 18px;
+.botao-contato:active{
+	color: darkgreen;
+	font-weight: bold;
 }
+
+
+.logo-divisao-site{
+	width: 20px;
+	padding:0 5px;
+
+}
+
+
+/*FIM DIVISÃO SITE*/
